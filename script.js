@@ -53,6 +53,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       // document.querySelector('.message').textContent = '💥 You lost the game!';
       displayMessage('💥 You lost the game!');
+          document.querySelector('body').style.backgroundColor = '#ef5350';
       document.querySelector('.score').textContent = 0;
     }
   }
